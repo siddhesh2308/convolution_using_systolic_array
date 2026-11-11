@@ -1,0 +1,4 @@
+python verify_trim_fpga.py calibrate --port COM14
+python verify_trim_fpga.py verify --port COM14 --image img_1.jpg --kernel sobel_x --out hw_result.png
+
+python verify_trim_fpga.py verify --port COM15 --image img_1.jpg --kernel blur3 --show
